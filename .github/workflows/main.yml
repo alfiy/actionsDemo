@@ -29,8 +29,8 @@ jobs:
       - name: Run a one-line script
       #  run: echo Hello, world!
         run: |
-          mkdir -p /home/alfiy
-          cd /home/alfiy
+          mkdir /alfiy
+          cd /alfiy
           sudo apt install -y gcc
           git clone https://github.com/alfiy/cdemo.git
           cd cdemo
