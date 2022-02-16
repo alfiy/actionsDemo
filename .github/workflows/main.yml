@@ -32,6 +32,10 @@ jobs:
           mkdir -p /home/alfiy
           cd /home/alfiy
           sudo apt install -y gcc
+          git clone https://github.com/alfiy/cdemo.git
+          cd cdemo
+          gcc hello.c -o hello
+          ./hello
           
         
 
