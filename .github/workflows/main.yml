@@ -30,6 +30,7 @@ jobs:
       #  run: echo Hello, world!
         run: |
           git clone https://github.com/alfiy/cdemo.git
+          cd cdemo/exercise/
           gcc hello.c -o hello
           ./hello
           
