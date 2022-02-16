@@ -29,10 +29,7 @@ jobs:
       - name: Run a one-line script
       #  run: echo Hello, world!
         run: |
-          git clone https://github.com/alfiy/cdemo.git
-          cd cdemo/exercise/
-          gcc hello.c -o hello
-          ./hello
+          ls
           
           
         
