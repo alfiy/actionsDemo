@@ -36,9 +36,12 @@ jobs:
       #    echo Add other actions to build,
       #    echo test, and deploy your project.
       
+      - name: make a dir
+        run: sudo mkdir myartifact
+      
      
       - name: Upload artifact
         uses: actions/upload-artifact@master
         with:
             name: MyDemo
-            path: /bin
+            path: myartifact/bin
