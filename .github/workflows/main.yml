@@ -40,7 +40,7 @@ jobs:
         run: |
           sudo mkdir myartifact
           cd myartifact
-          git clone https://github.com/alfiy/cdemo.git
+          sudo git clone https://github.com/alfiy/cdemo.git
       
      
       - name: Upload artifact
