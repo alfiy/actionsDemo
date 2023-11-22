@@ -45,9 +45,7 @@ jobs:
           cd myartifact
           echo "This is a workflows demo/n" >> ./README.txt
           echo "very good" >> ./README.txt
-          git add .
-          git commit -a -m "commit from workflow"
-          git push
+
       
       
      
