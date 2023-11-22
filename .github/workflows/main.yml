@@ -43,8 +43,11 @@ jobs:
         run: |
           git clone --depth 1 $REPO_URL -b $REPO_BRANCH myartifact
           cd myartifact
-          echo "This is a c code demo" >> ./README.txt
-          echo "mv main to master" >> ./README.txt
+          echo "This is a workflows demo/n" >> ./README.txt
+          echo "very good" >> ./README.txt
+          git add .
+          git commit -a -m "commit from workflow"
+          git push
       
       
      
